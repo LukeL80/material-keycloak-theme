@@ -8,4 +8,4 @@ clean:
 
 ${FILENAME}:
 	mkdir artifacts
-	tar -jcvf ./artifacts/${FILENAME} ./material/
+	tar -jcvf ../${FILENAME} ./material/
