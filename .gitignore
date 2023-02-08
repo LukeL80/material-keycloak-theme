@@ -60,5 +60,5 @@ typings/
 # next.js build output
 .next
 
-# Artifacts
-artifacts/
+# Artifact
+material-keycloak-theme-*.tar.gz

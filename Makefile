@@ -4,8 +4,7 @@ FILENAME=material-keycloak-theme-${VERSION}.tar.gz
 all: ${FILENAME}
 
 clean:
-	rm -rf ./artifacts
+	rm -f ${FILENAME}
 
 ${FILENAME}:
-	mkdir artifacts
-	tar -jcvf ../${FILENAME} ./material/
+	tar -jcvf ${FILENAME} ./material/
